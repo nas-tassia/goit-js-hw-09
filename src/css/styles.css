@@ -13,3 +13,26 @@ img{
     column-gap: 5px;
     justify-content: center;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    column-gap: 4px;
+    max-width: 300px;
+}
+input, textarea, button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  textarea {
+    max-height: none; 
+    resize: none; 
+  }
+  
+  button{
+    width: 50%;
+    margin: 0 auto;
+  }
